@@ -200,13 +200,12 @@ img{
 
 /* image */
 .main{
-    height: 100vh;
+    width: 100%;
+    height: 900px;
     background-image: url('../images/main-img.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
-    background-attachment: fixed;
 }
 .main-2{
     min-height: 100vh;
@@ -541,6 +540,9 @@ img{
 }
 
 @media(max-width: 412px){
+    .main{
+        height: 715px;
+    }
     .media-280{
         line-height: 26px;
     }
@@ -566,6 +568,9 @@ img{
 
 
 @media(max-width: 376px){
+    .main{
+        height: 790px;
+    }
     .fz-17{
         font-size: 13px;
         padding-bottom: 7%;
